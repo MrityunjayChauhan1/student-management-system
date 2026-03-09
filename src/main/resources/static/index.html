@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+  <title>Student Management </title>
+  
+  <style >
+  
+   body{
+   
+    font-family: Arial;
+    margin: 40px;
+    background: #f4f4f4;
+   }
+   input{
+   padding: 8px;
+   margin:5px;
+   
+   }
+   button {
+	padding: 8px 12px;
+	background: #4CAF50;
+	color:white;
+	border:none;
+	cursor:pointer;
+}
+button:hover{
+background: #45a049;
+}
+table{
+border-collapse: collapse;
+width: 80%;
+margin-top: 20px;
+background:white;
+
+}
+th,td{
+border: 1px solid #ddd;
+padding: 10px;
+text-align: center;
+}
+th{
+background: #333;
+color: white;
+}
+.deleteBtn{
+background: red;
+}
+.updateBtn{
+ background: orange;
+}
+
+  </style>
+
+</head>
+
+<body>
+  <h2>Add Student</h2>
+  <input type="hidden" id="studentId">
+   <label>Name </label><br>
+   <input type="text" id="name" placeholder="Enter Student Name"><br><br>
+   <label>Enter Student Address</label> <br>
+   <input type="text" id="StudentAddress" placeholder="Student Address"><br><br>
+   <label>Enter StudentClass</label><br>
+ <input type="text" id="studentClass" placeholder="Enter Class"><br> <br>
+  
+   <button onclick="SaveStudent()">SaveStudent</button>
+  
+   <button onclick="getStudent()">Load Student</button>
+   <h2>Student List </h2>
+   <table>
+   
+    <thead>
+    <tr>
+    
+     <th>ID</th>
+     <th>Name</th>
+     <th>Address</th>
+     <th>Class</th>
+     
+    </tr>
+    
+    </thead>
+    <tbody id="studentTableBody"></tbody>
+   </table>
+   
+   <script src="script.js"></script>
+
+</body>
+
+</html>
