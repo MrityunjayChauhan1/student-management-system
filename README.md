@@ -24,3 +24,8 @@ This is a Full Stack project developed using Spring Boot and JavaScript.
 This application allows users to manage student records. 
 Users can add new students, view existing students, update details, 
 and delete records using a simple web interface.
+
+## Project Screenshot
+
+![Project Screenshot](project-ui.png)
+
