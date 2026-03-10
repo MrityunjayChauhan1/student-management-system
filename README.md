@@ -27,5 +27,5 @@ and delete records using a simple web interface.
 
 ## Project Screenshot
 
-![Project Screenshot](project-ui.png)
+![Project Screenshot](Screenshot2026-03-10 171529.png)
 
